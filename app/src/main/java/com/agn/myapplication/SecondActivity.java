@@ -20,18 +20,8 @@ public class SecondActivity extends AppCompatActivity {
         menu = findViewById(R.id.textViewMenu);
         menuTwo = findViewById(R.id.textViewMenuTwo);
         menuThree = findViewById(R.id.textViewThree);
-
-
         menu.setText(getIntent().getStringExtra("Key"));
         menuTwo.setText(getIntent().getStringExtra("Key2"));
         menuThree.setText(getIntent().getStringExtra("Key3"));
     }
-
-//    @Override
-//    protected void onStart() {
-//        super.onStart();
-//        menu.setText(getIntent().getStringExtra("Key"));
-//        menuTwo.setText(getIntent().getStringExtra("Key2"));
-//        menuThree.setText(getIntent().getStringExtra("Key3"));
-//    }
 }

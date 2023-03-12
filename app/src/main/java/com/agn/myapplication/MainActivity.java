@@ -34,11 +34,9 @@ public class MainActivity extends AppCompatActivity {
             String name2 = ((EditText) findViewById(R.id.editText_nameName)).getText().toString();
             String name3 = ((EditText) findViewById(R.id.editText_fuulName)).getText().toString();
             intent.putExtra("Key", name1);
-            intent.putExtra("key2", name2);
-            intent.putExtra("key3", name3);
+            intent.putExtra("Key2", name2);
+            intent.putExtra("Key3", name3);
             startActivity(intent);
-    });
-
-
-}
+        });
+    }
 }
